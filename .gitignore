@@ -1,0 +1,6 @@
+*.jar
+*.class
+*.war
+nbproject*
+*netbeans*
+*.swp
