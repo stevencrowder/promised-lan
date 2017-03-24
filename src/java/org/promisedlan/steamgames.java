@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.promisedlan;
+package java.org.promisedlan;
 
 import com.lukaspradel.steamapi.core.exception.SteamApiException;
 import com.lukaspradel.steamapi.data.json.ownedgames.*;
@@ -108,7 +108,7 @@ public class steamgames {
     }
     
     private GetOwnedGamesRequest buildRequest() {
-        return SteamWebApiRequestFactory.createGetOwnedGamesRequest(l_steam_id, true);
+        return SteamWebApiRequestFactory.createGetOwnedGamesRequest(l_steam_id);
         //return SteamWebApiRequestFactory.createGetOwnedGamesRequest(this.l_steam_id, true, true);
     }
         
