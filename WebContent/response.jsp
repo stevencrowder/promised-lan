@@ -17,4 +17,4 @@
         <h1>Owned Games:</h1>
         <p><jsp:getProperty name="steamGamesBean" property="l_game_name" /></p>
     </body>
-</html>
+</html> 
