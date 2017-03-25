@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+ 
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,9 +13,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <jsp:useBean id="steamGamesBean" scope="session" class="java.org.promisedlan.steamgames" />
-        <jsp:setProperty name="steamGamesBean" property="l_steam_id" />
+        <jsp:useBean id="steamGamesBean" scope="session" class="org.promisedlan.steamgames" />
+        <jsp:setProperty name="steamGamesBean" property="steamId" />
         <h1>Owned Games:</h1>
-        <p><jsp:getProperty name="steamGamesBean" property="l_game_name" /></p>
+        <p><jsp:getProperty name="steamGamesBean" property="gameName" /></p>
+        
     </body>
 </html> 

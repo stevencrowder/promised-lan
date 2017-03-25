@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_91">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_73">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
@@ -11,19 +11,19 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/commons-io-2.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/httpclient-4.5.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/httpcore-4.4.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/jackson-annotations-2.6.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/jackson-core-2.6.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/jackson-core-asl-1.9.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/jackson-databind-2.6.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/slf4j-api-1.7.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/steven/javalibs/steam-web-api-1.3-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-codec-1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/gson-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/httpclient-4.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/httpcore-4.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jackson-annotations-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jackson-core-2.6.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jackson-core-asl-1.9.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jackson-databind-2.6.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/steam-web-api-1.3-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

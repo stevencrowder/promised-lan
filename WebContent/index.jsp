@@ -15,7 +15,7 @@
         <h1>Steam Game Finder</h1>
         <form name="SteamID Input Form" action="response.jsp">
             Enter your 64 bit Steam ID:
-            <input type="text" name="l_steam_id" />
+            <input type="text" name="steamId" />
             <input type="submit" name ="submit" value="OK" />
         </form>
     </body>
